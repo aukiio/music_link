@@ -1,13 +1,31 @@
+html {
+    /* This ensures the 'canvas' of the page always has the color */
+    background: #ffc3f0; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: linear-gradient(to bottom, #ffe9fa, #ffd0f4, #fdb3eb);
-    background-attachment: fixed; /* Keeps the background from scrolling with the content */
-    background-size: cover;       /* Ensures it fills the entire width and height */
-    min-height: 100%;
+    /* Apply the gradient here */
+    background: linear-gradient(to bottom, #fae4f5, #fff2fc, #ffc3f0);
+    
+    /* This is the magic line: it locks the gradient to the screen, 
+       so it doesn't move or gap when you scroll */
+    background-attachment: fixed; 
+    
+    /* Ensures the body covers at least the full height of the screen */
+    min-height: 100%; 
+    
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: left;
     padding: 40px;
+    
+    /* Fixes potential issues with box sizing */
+    box-sizing: border-box; 
 }
 a {
     display: inline-block;
