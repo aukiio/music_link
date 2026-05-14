@@ -35,6 +35,17 @@ p {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+.title-group {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    margin-top: 2px;
+    font-style: italic;
+}
 .big {
     font-size: 35px;
     margin-top: 55px;
